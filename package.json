@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "gulp": "gulp",
-    "postinstall": "gulp"
+    "typings": "typings",
+    "postinstall": "typings install && gulp"
   },
   "license": "ISC",
   "dependencies": {
