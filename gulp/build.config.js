@@ -1,5 +1,7 @@
-module.exports = () => {
-    return {
+( () => {
+    /// <summary>Configuration file for the Gulp build</summary>
+
+    module.exports = Object.freeze({
         tsApp: "./src/app.ts",
         dist: "./dist",
         jsApp: "app.js",
@@ -17,5 +19,5 @@ module.exports = () => {
         cssDistFolder: "css",
         cssDistFile: "app.css",
         assetsFolder: "assets"
-    };
-};
+    })
+})();
