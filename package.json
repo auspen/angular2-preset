@@ -28,6 +28,7 @@
     "browserify": "^13.0.1",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.0",
+    "gulp-inject": "^4.1.0",
     "gulp-run-sequence": "^0.3.2",
     "gulp-sass": "^2.3.2",
     "tsify": "^1.0.1",
