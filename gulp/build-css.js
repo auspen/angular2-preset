@@ -7,6 +7,7 @@
     var config = require("./build.config");
     var sass = require("gulp-sass");
     var concat = require("gulp-concat");
+    var cleanCss = require("gulp-clean-css");
 
     module.exports = () => {
         /// <summary>Compile SASS sources into a single app.css file</summary>
@@ -18,6 +19,7 @@
         return gulp.src(scssSourceFiles)
             .pipe(sass().on("error", sass.logError))
             .pipe(concat(config.cssDistFile))
+            .pipe(cleanCss())
             .pipe(gulp.dest(cssDistPath))
     }
 })();

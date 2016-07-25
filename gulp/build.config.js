@@ -7,8 +7,6 @@
         jsApp: "app.js",
         indexHtml: "index.html",
         tsFiles: './src/**/*.ts',
-        typings: "./typings/**/*d.ts",
-        ngTypings: "./node_modules/@angular/**/*.ts",
         src: "./src",
         libFiles: [
             "./node_modules/core-js/client/shim.min.js",
